@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+}
+
+/* header design */
+/* nav style */
+/* header{
+    margin: 20px 220px;
+} */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    padding: 20px 220px;
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-head{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+}
+.menus > ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+cursor: pointer;
+}
+
+.menus > ul > li{
+    list-style: none;
+}
+.menus > ul > li > a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+.follow-btn{
+    display: inline-flex;
+    gap:8px;
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+border: none;
+padding: 10px 20px;
+color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+cursor: pointer;
+}
+/* banner design */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2px;
+    background: #FFF;
+}
+.banner-content{
+    width: 50%;
+    padding: 30px 20px 30px 220px;
+    background-image: url('./images/Group\ 14.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-title{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.banner-head{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+font-family: Work Sans;
+font-size: 4rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.banner-desc{
+
+    padding:10px 0;
+    gap:5px;
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: inline-flex;
+}
+.btn-sec{
+    padding-top:20px;
+    display: flex;
+    gap: 20px;
+}
+.btn{
+padding: 8px 15px;
+border:none;
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+border-radius: 48px;
+
+}
+.banner-img{
+    width: 35%;
+    padding-right:220px;
+}
