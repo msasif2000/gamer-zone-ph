@@ -1,5 +1,5 @@
 @media screen and (max-width: 425px){
-    nav, .menus > ul{
+    /* nav, .menus > ul{
         flex-direction: column;
         padding:20px 0px;
     }
@@ -14,7 +14,7 @@
     .banner-content{
         flex-direction: column;
         align-items: center ;
-        width:100%;
+        width:50%;
         padding:0;
         justify-content: center;
     }
@@ -25,11 +25,7 @@
 
     }
     .banner-head{
-    font-family: Work Sans;
     font-size: 3rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
     
     }
     .banner-desc{
@@ -43,7 +39,66 @@
         }
     .banner-img{
         height: 400px;
-        width: 380px;
+        width: 350px;
         padding:20px 0px;
-    }
+    } */
+    .logo img {
+        max-width: 80px;
+      }
+    
+      /* Center-align the logo text */
+      .nav-head {
+        text-align: center;
+      }
+    
+      /* Adjust the navigation menu */
+      .menus ul, nav, .logo{
+        flex-direction: column;
+        padding: 10px 0px;
+      }
+      .menus > ul{
+        font-size: 12px;
+      }
+      .banner{
+        flex-direction: column-reverse;
+
+      }
+    
+      .menus li {
+        margin-bottom: 10px;
+      }
+    
+      /* Adjust the banner layout */
+      .banner-content {
+        width: 100%;
+        text-align: center;
+        padding:0;
+      }
+    
+      .banner-title,
+      .banner-head,
+      .banner-desc {
+        text-align: center;
+        padding:0;
+      }
+      .banner-title{
+        font-size: 2rem;
+      }
+      .banner-head{
+        font-size: 3rem;
+      }
+      .banner-desc{
+        font-size: 15px;
+      }
+    
+      .btn-sec {
+        flex-direction: column;
+        align-items: center;
+      }
+      .banner-img{
+        height: 250px;
+        width: 250px;
+        padding:20px 0px;
+      }
+
 }
