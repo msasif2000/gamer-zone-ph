@@ -116,10 +116,15 @@
         left: 15%;
     }
 
-    .career-sec {
-        padding: 10px;
+    .career-content {
+        width: 100%;
+        padding:10px;
     }
-
+    
+    .career-img {
+        width: 100%;
+        padding:10px;
+    }
     .career {
         flex-direction: column;
         margin-top: 10px;
@@ -136,9 +141,11 @@
     .career-title {
         text-align: center;
     }
-
+    .types{
+        margin: 100px 10px;
+    }
     .type-desc {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
     }
 
@@ -275,10 +282,18 @@
         left: 15%;
     }
 
-    .career-sec {
+    /* .career-sec {
         padding: 10px;
+    } */
+    .career-content {
+        width: 100%;
+        padding:10px;
     }
-
+    
+    .career-img {
+        width: 100%;
+        padding:10px;
+    }
     .career {
         flex-direction: column;
         margin-top: 10px;
@@ -295,7 +310,9 @@
     .career-title {
         text-align: center;
     }
-
+    .types {
+        margin: 100px 10px;
+    }
     .type-desc {
         font-size: 18px;
         font-weight: 550;

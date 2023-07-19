@@ -362,7 +362,6 @@ nav {
 /* career design */
 .career-sec {
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    padding: 0 140px;
 }
 
 .career {
@@ -371,14 +370,17 @@ nav {
     align-items: center;
     max-width: 1440px;
     margin: 0 auto;
+
 }
 
 .career-content {
     width: 50%;
+    padding-left:140px;
 }
 
 .career-img {
     width: 50%;
+    padding-right:140px;
 }
 
 .career-img img {
@@ -429,7 +431,7 @@ nav {
 }
 
 .types {
-    margin: 100px 80px;
+    margin: 100px 140px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
