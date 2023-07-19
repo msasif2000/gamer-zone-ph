@@ -141,7 +141,7 @@ nav {
     font-size: 20px;
     font-weight: 600;
     border-radius: 48px;
-
+    cursor:pointer;
 }
 
 .banner-img {
@@ -375,6 +375,7 @@ nav {
     display: inline-flex;
     padding: 10px 20px;
     border: none;
+    cursor:pointer;
 
 }
 
@@ -413,4 +414,66 @@ nav {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+/* Footer design */
+footer{
+    background: #0B0223;
+    padding: 0px 240px;
+}
+.foot h3{
+    color: #FFF;
+}
+footer ul, .foot, .foot-1, .foot-2, .foot-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px 0px;
+}
+footer li{
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.foot-1 a{
+    text-decoration: none;
+    color:#FFF;
+    text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.foot-2{
+    max-width:400px;
+    margin:0px auto;
+}
+.foot-2 i{
+    color: #FFF;
+    font-size: 30px;
+}
+.foot-2{
+    margin:0px auto;
+    justify-content: space-around;
+}
+.foot-3 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-bottom:30px;
 }
