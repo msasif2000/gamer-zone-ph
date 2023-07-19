@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
-body{
+
+body {
     font-family: 'Work Sans', sans-serif;
 }
+
 * {
     margin: 0px;
     box-sizing: border-box;
@@ -9,18 +11,19 @@ body{
 
 /* header design */
 /* nav style */
-header{
+header {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 140px 30px 140px;
-   
+
     max-width: 1440px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .logo {
@@ -74,25 +77,26 @@ nav {
     line-height: normal;
     cursor: pointer;
 }
- 
+
 /* banner design */
-.banner-sec{
+.banner-sec {
     background-image: url('./images/Group 14.png');
     /* background-size: cover; */
     background-repeat: no-repeat;
 }
+
 .banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1440px;
-    margin:0 auto;
+    margin: 0 auto;
     /* padding: 0 140px; */
 }
 
 .banner-content {
     width: 50%;
-    padding-left:140px;
+    padding-left: 140px;
 }
 
 .banner-title {
@@ -146,38 +150,41 @@ nav {
 
 .banner-img {
     width: 50%;
-    padding-right:140px;
+    padding-right: 140px;
 }
-.banner-img img{
+
+.banner-img img {
     width: 100%;
-    height:100%;
+    height: 100%;
 }
 
 /* Gamer section */
-.gamer-sec{
+.gamer-sec {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    margin-top:50px;
+    margin-top: 50px;
 }
+
 .gamer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width:1440px;
-    margin:0 auto;
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 30px 140px;
     gap: 20px;
 }
 
-.gamer-img{
+.gamer-img {
     width: 55%;
 }
-.gamer-img img{
+
+.gamer-img img {
     width: 100%;
-    height:100%;
+    height: 100%;
 }
 
 .gamer-content {
-    width:45%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -248,6 +255,26 @@ nav {
 .online-content {
     width: 280px;
     height: auto;
+    position: relative;
+}
+
+.overlay a {
+    text-decoration: none;
+}
+
+.overlay {
+    border: 3px solid rgb(214, 6, 131);
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 330px;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgb(0, 0, 0);
 }
 
 .online-content img {
@@ -255,13 +282,27 @@ nav {
     height: 330px;
 }
 
-.online-content img:hover {
-    /* transform: scale(1.1);
-    transition: all 0.5s ease-in-out; */
-    border: 5px solid rgb(214, 6, 131);
+.online-content:hover .overlay {
+    /* border: 5px solid rgb(214, 6, 131);
     opacity: 0.5;
-    border-radius: 15px;
+    border-radius: 15px; */
+    opacity: 0.8;
 
+}
+
+.icon {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.icon:hover {
+    color: #eee;
 }
 
 /* Play design */
@@ -314,8 +355,8 @@ nav {
 
 .float-img {
     position: absolute;
-    top: 420px;
-    left: -50px;
+    top: 70%;
+    left: -10%;
 }
 
 /* career design */
@@ -328,8 +369,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width:1440px;
-    margin:0 auto;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .career-content {
@@ -339,7 +380,8 @@ nav {
 .career-img {
     width: 50%;
 }
-.career-img img{
+
+.career-img img {
     width: 100%;
     height: 100%;
 }
@@ -381,9 +423,10 @@ nav {
 }
 
 /* Game types design */
-.type-sec{
+.type-sec {
     max-width: 1440px;
 }
+
 .types {
     margin: 100px 80px;
     display: flex;
@@ -398,10 +441,11 @@ nav {
     gap: 10px;
     padding: 10px;
 }
-.type:hover{
-    border:1px solid #FF42A5;
+
+.type:hover {
+    border: 1px solid #FF42A5;
     border-radius: 40px;
-    
+
 }
 
 .type-desc {
@@ -411,7 +455,8 @@ nav {
     font-weight: 600;
     line-height: normal;
 }
-.type-desc:hover{
+
+.type-desc:hover {
 
     color: #FF42A5;
     cursor: pointer;

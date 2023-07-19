@@ -1,129 +1,156 @@
 @media screen and (max-width: 425px) {
-    nav, .menus>ul {
+
+    nav,
+    .menus>ul {
         flex-direction: column;
     }
+
     .menus>ul>li>a {
-        margin-top:10px;
+        margin-top: 10px;
     }
+
     nav {
         padding: 10px;
     }
+
     .banner {
-        padding:10x;
+        padding: 10x;
         flex-direction: column-reverse;
     }
-    .banner-content, .banner-img{
-        width:100%;
-        padding:10px;
+
+    .banner-content,
+    .banner-img {
+        width: 100%;
+        padding: 10px;
     }
+
     .banner-title {
         font-size: 35px;
         text-align: center;
     }
-    
+
     .banner-head {
         font-size: 50px;
         text-align: center;
     }
 
-    .btn-sec{
+    .btn-sec {
         max-width: 300px;
         gap: 10px;
-        margin:0 auto;
+        margin: 0 auto;
         justify-content: center;
-        
+
     }
-    
+
     .banner-desc {
         font-size: 15px;
         justify-content: center;
     }
-    .gamer
-    {
+
+    .gamer {
         flex-direction: column;
         padding: 10px;
     }
-    .gamer-img{
+
+    .gamer-img {
         width: 100%;
     }
+
     .gamer-content {
-        width:100%;
+        width: 100%;
         align-items: center;
         text-align: center;
-    
+
     }
-    .online{
-        margin:10px auto;
+
+    .online {
+        margin: 10px auto;
         grid-template-columns: 1fr;
         place-items: center;
-        gap : 10px;
+        gap: 10px;
     }
+
     .online-content {
         width: 300px;
         height: auto;
     }
-    .online-desc{
-        padding:10px;
+
+    .online-desc {
+        padding: 10px;
     }
-    
+
     .online-content img {
         width: 300px;
         height: 330px;
     }
+
     .play-sec {
         margin: 10px 10px 100px;
     }
-    .play{
+
+    .play {
         grid-template-columns: 1fr;
     }
+
     .play-title {
         text-align: center;
         font-size: 35px;
     }
-    
+
     .play-desc {
         text-align: center;
     }
+
     .play-img>img {
         width: 70%;
-        margin-left:30%;
+        margin-left: 30%;
     }
+
     .float-img img {
         width: 130px;
         height: 160px;
     }
+
     .float-img {
-        top: 150px;
-        left: 40px;
+        top: 60%;
+        left: 15%;
     }
+
     .career-sec {
-        padding:  10px;
+        padding: 10px;
     }
+
     .career {
         flex-direction: column;
-        margin-top:10px;
+        margin-top: 10px;
     }
+
     .career-content {
         width: 100%;
     }
-    
+
     .career-img {
         width: 100%;
     }
-    .career-title{
+
+    .career-title {
         text-align: center;
     }
+
     .type-desc {
         font-size: 15px;
         font-weight: 500;
     }
-    footer{
-        padding:10px;
+
+    footer {
+        padding: 10px;
     }
-    .foot-1 ul, .foot-2{
+
+    .foot-1 ul,
+    .foot-2 {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap:10px
+        gap: 10px
     }
 
 }
@@ -132,130 +159,156 @@
     nav {
         flex-direction: column;
     }
-    .menus>ul{
-        margin:30px  auto;
+
+    .menus>ul {
+        margin: 30px auto;
     }
+
     .menus>ul>li>a {
-        margin-top:10px;
+        margin-top: 10px;
     }
+
     nav {
         padding: 10px;
     }
+
     .banner {
-        padding:10x;
+        padding: 10x;
         flex-direction: column-reverse;
     }
-    .banner-content, .banner-img{
-        width:100%;
-        padding:10px;
+
+    .banner-content,
+    .banner-img {
+        width: 100%;
+        padding: 10px;
     }
+
     .banner-title {
         font-size: 45px;
         text-align: center;
     }
-    
+
     .banner-head {
         font-size: 60px;
         text-align: center;
     }
 
-    .btn-sec{
+    .btn-sec {
         max-width: 300px;
         gap: 10px;
-        margin:0 auto;
+        margin: 0 auto;
         justify-content: center;
-        
+
     }
-    
+
     .banner-desc {
         font-size: 18px;
         justify-content: center;
     }
-    .gamer
-    {
+
+    .gamer {
         flex-direction: column;
         padding: 10px;
     }
-    .gamer-img{
+
+    .gamer-img {
         width: 100%;
     }
+
     .gamer-content {
-        width:100%;
+        width: 100%;
         align-items: center;
         text-align: center;
-    
+
     }
-    .online{
-        margin:10px auto;
+
+    .online {
+        margin: 10px auto;
         grid-template-columns: repeat(2, 1fr);
         place-items: center;
-        gap : 10px;
+        gap: 10px;
     }
+
     .online-content {
         width: 300px;
         height: 450px;
     }
-    .online-desc{
-        padding:10px;
+
+    .online-desc {
+        padding: 10px;
     }
-    
+
     .online-content img {
         width: 300px;
         height: 330px;
     }
+
     .play-sec {
         margin: 10px 10px 100px;
     }
-    .play{
+
+    .play {
         grid-template-columns: 1fr;
     }
+
     .play-title {
         text-align: center;
         font-size: 35px;
     }
-    
+
     .play-desc {
         text-align: center;
     }
+
     .play-img>img {
         width: 80%;
-        margin-left:20%;
+        margin-left: 20%;
     }
+
     .float-img img {
         width: 150px;
         height: 190px;
     }
+
     .float-img {
-        top: 400px;
-        left: 50px;
+        top: 70%;
+        left: 15%;
     }
+
     .career-sec {
-        padding:  10px;
+        padding: 10px;
     }
+
     .career {
         flex-direction: column;
-        margin-top:10px;
+        margin-top: 10px;
     }
+
     .career-content {
         width: 100%;
     }
-    
+
     .career-img {
         width: 100%;
     }
-    .career-title{
+
+    .career-title {
         text-align: center;
     }
+
     .type-desc {
         font-size: 18px;
         font-weight: 550;
     }
-    footer{
-        padding:10px;
+
+    footer {
+        padding: 10px;
     }
-    .foot-1 ul, .foot-2{
+
+    .foot-1 ul,
+    .foot-2 {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap:10px
+        gap: 10px
     }
 }
