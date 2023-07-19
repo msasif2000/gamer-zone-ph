@@ -1,104 +1,133 @@
-@media screen and (max-width: 425px){
-    /* nav, .menus > ul{
+@media screen and (max-width: 425px) {
+    nav, .menus>ul {
         flex-direction: column;
-        padding:20px 0px;
     }
-    .nav-head{
-    font-size: 35px;
- 
+    .menus>ul>li>a {
+        margin-top:10px;
     }
-    .banner
-        {
-            flex-direction: column;
-        }
-    .banner-content{
-        flex-direction: column;
-        align-items: center ;
-        width:50%;
-        padding:0;
+    nav {
+        padding: 10px;
+    }
+    .banner {
+        padding:10x;
+        flex-direction: column-reverse;
+    }
+    .banner-content, .banner-img{
+        width:100%;
+        padding:10px;
+    }
+    .banner-title {
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .banner-head {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .btn-sec{
+        max-width: 300px;
+        gap: 10px;
+        margin:0 auto;
+        justify-content: center;
+        
+    }
+    
+    .banner-desc {
+        font-size: 15px;
         justify-content: center;
     }
-    .banner-title{
-        color: #0B0223;
-    font-family: Work Sans;
-    font-size: 1rem;
-
-    }
-    .banner-head{
-    font-size: 3rem;
-    
-    }
-    .banner-desc{
-    font-size: 15px;
-    }
-    .btn{
-        font-size: 15px;
-        font-weight: 600;
-        border-radius: 48px;
-        
-        }
-    .banner-img{
-        height: 400px;
-        width: 350px;
-        padding:20px 0px;
-    } */
-    .logo img {
-        max-width: 80px;
-      }
-    
-      /* Center-align the logo text */
-      .nav-head {
-        text-align: center;
-      }
-    
-      /* Adjust the navigation menu */
-      .menus ul, nav, .logo{
+    .gamer
+    {
         flex-direction: column;
-        padding: 10px 0px;
-      }
-      .menus > ul{
-        font-size: 12px;
-      }
-      .banner{
-        flex-direction: column-reverse;
-
-      }
-    
-      .menus li {
-        margin-bottom: 10px;
-      }
-    
-      /* Adjust the banner layout */
-      .banner-content {
+        padding: 10px;
+    }
+    .gamer-img{
         width: 100%;
-        text-align: center;
-        padding:0;
-      }
-    
-      .banner-title,
-      .banner-head,
-      .banner-desc {
-        text-align: center;
-        padding:0;
-      }
-      .banner-title{
-        font-size: 2rem;
-      }
-      .banner-head{
-        font-size: 3rem;
-      }
-      .banner-desc{
-        font-size: 15px;
-      }
-    
-      .btn-sec {
-        flex-direction: column;
+    }
+    .gamer-content {
+        width:100%;
         align-items: center;
-      }
-      .banner-img{
-        height: 250px;
-        width: 250px;
-        padding:20px 0px;
-      }
+        text-align: center;
+    
+    }
+    .online{
+        margin:10px auto;
+        grid-template-columns: 1fr;
+        place-items: center;
+        gap : 10px;
+    }
+    .online-content {
+        width: 300px;
+        height: auto;
+    }
+    .online-desc{
+        padding:10px;
+    }
+    
+    .online-content img {
+        width: 300px;
+        height: 330px;
+    }
+    .play-sec {
+        margin: 10px 10px 100px;
+    }
+    .play{
+        grid-template-columns: 1fr;
+    }
+    .play-title {
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .play-desc {
+        text-align: center;
+    }
+    .play-img>img {
+        width: 70%;
+        margin-left:30%;
+    }
+    .float-img img {
+        width: 130px;
+        height: 160px;
+    }
+    .float-img {
+        top: 150px;
+        left: 40px;
+    }
+    .career-sec {
+        padding:  10px;
+    }
+    .career {
+        flex-direction: column;
+        margin-top:10px;
+    }
+    .career-content {
+        width: 100%;
+    }
+    
+    .career-img {
+        width: 100%;
+    }
+    .career-title{
+        text-align: center;
+    }
+    .type-desc {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    footer{
+        padding:10px;
+    }
+    .foot-1 ul, .foot-2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:10px
+    }
+
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
 
 }
